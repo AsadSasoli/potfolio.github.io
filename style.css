@@ -7,10 +7,25 @@
 body{
     width: 100vw;
     overflow-x: hidden;
+    background:#191c2b;
 }
 html{
     scroll-behavior: smooth;
 }
+::-webkit-scrollbar{
+    width: 1rem;
+}
+::-webkit-scrollbar-track{
+    background: #38394b;
+    border-radius: 100vw;
+    margin-block:2rem ;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 100vw;
+    background:  #F54854;
+    border: 3px solid #38394b ;
+}
+
 .contaner{
     width: 100vw;
     height: auto;
